@@ -1,0 +1,15 @@
+# Sqlite database
+m5nv-oidc.db
+
+# We remain on the bleeding edge until we get closer 
+# to beta ready
+package-lock.json
+
+# Snaphot directory
+__snapshots__
+
+# VSCode IDE settings
+.vscode
+
+# Ignore node modules
+node_modules/

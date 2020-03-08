@@ -1,0 +1,36 @@
+{
+  "name": "m5nv-oidc-ropc",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "genkeys": "node src/support/genkeys.js",
+    "lint": "eslint src --cache"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-urlrewrite": "^1.2.0",
+    "helmet": "^3.21.2",
+    "ioredis": "^4.10.0",
+    "jose": "^1.10.0",
+    "lodash": "^4.17.11",
+    "lowdb": "^1.0.0",
+    "nanoid": "^2.1.11",
+    "oidc-provider": "^6.23.1",
+    "sequelize": "^5.21.4",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
