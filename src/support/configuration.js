@@ -19,7 +19,7 @@ module.exports = {
     {
       client_id: 'CIA1B2C3D4E5',
       client_secret: 'im5rNDuiUYQDIB9iQZdA',
-      grant_types: ['authorization_code'/* , 'refresh_token', 'implicit' */],
+      grant_types: ['authorization_code', 'password' /* , 'refresh_token', 'implicit' */],
       response_types: ['code'/* , 'id_token', 'code id_token' */],
       redirect_uris: ['https://m5nv-relying-party.com:3000/oauth2test/callback'],
     },
@@ -52,6 +52,7 @@ module.exports = {
     deviceFlow: { enabled: true }, // defaults to false
     introspection: { enabled: true }, // defaults to false
     revocation: { enabled: true }, // defaults to false
+    ropCredentials: { enabled: true }, // SGK08Apr2020
   },
   jwks, // Generated using generate-keys
   ttl: {

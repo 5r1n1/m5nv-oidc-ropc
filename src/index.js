@@ -7,7 +7,7 @@ const path = require('path');
 const express = require('express'); // eslint-disable-line import/no-unresolved
 const helmet = require('helmet');
 
-const { Provider } = require('oidc-provider');
+const { Provider } = require('../../node-oidc-provider/lib');
 
 const adapter = require('./adapters/sequelize');
 const Account = require('./support/account');
