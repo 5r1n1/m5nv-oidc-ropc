@@ -24,7 +24,7 @@
     "lodash": "^4.17.11",
     "lowdb": "^1.0.0",
     "nanoid": "^2.1.11",
-    "oidc-provider": "^6.23.1",
+    "oidc-provider": "github:5r1n1/node-oidc-provider",
     "sequelize": "^5.21.4",
     "sqlite3": "^4.1.1"
   },
